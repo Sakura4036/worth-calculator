@@ -37,7 +37,7 @@ export default function RootLayout({
       >
         {children}
         <div className="pb-8"></div>
-        <footer className="w-full py-4 border-t bg-white/90 dark:bg-gray-900/80 dark:border-gray-800/50">
+        {/* <footer className="w-full py-4 border-t bg-white/90 dark:bg-gray-900/80 dark:border-gray-800/50">
           <div className="max-w-5xl mx-auto px-4">
             <p className="text-center text-xs text-gray-500 dark:text-gray-400 mb-3">作者的其他实用工具 👇</p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
@@ -75,7 +75,7 @@ export default function RootLayout({
               </a>
             </div>
           </div>
-        </footer>
+        </footer> */}
       </body>
     </html>
   );
