@@ -35,7 +35,7 @@ const SalaryCalculator = () => {
       
       {/* 表单区域 */}
       <div className="bg-white dark:bg-gray-800 rounded-xl shadow-xl shadow-gray-200/50 dark:shadow-black/30">
-        <div className="p-6 space-y-8">
+        <div className="p-6 space-y-6">
           {/* 薪资与工作时间 section */}
           <SalaryForm formData={formData} handleInputChange={handleInputChange} />
 
@@ -43,6 +43,8 @@ const SalaryCalculator = () => {
 
           {/* 环境系数 */}
           <EnvironmentForm formData={formData} handleInputChange={handleInputChange} />
+
+          <div className="border-t border-gray-200 dark:border-gray-700 my-6"></div>
           
           {/* 学历和工作年限 */}
           <EducationForm formData={formData} handleInputChange={handleInputChange} />
